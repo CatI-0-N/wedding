@@ -2,6 +2,7 @@
   "name": "wedding",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://cati-0-n.github.io/wedding",
   "dependencies": {
     "@formspree/react": "^2.5.1",
     "@pbe/react-yandex-maps": "^1.2.5",

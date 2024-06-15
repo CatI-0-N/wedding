@@ -1,0 +1,62 @@
+.container {
+    display: grid;
+    font-size: 2em;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "Month Month Month"
+        "dayOfWeek number time"
+        "year year year";
+}
+.Month {
+    grid-area: Month;
+    justify-self: center; 
+    align-self: center; 
+}
+.year {
+    grid-area: year;
+    justify-self: center; 
+    align-self: center; 
+}
+.time {
+    grid-area: time;
+    justify-self: center; 
+    align-self: center; 
+    text-align: center;
+}
+.number {
+    grid-area: number;
+    justify-self: center; 
+    align-self: center; 
+    font-size: 2em;
+}
+.dayOfWeek {
+    grid-area: dayOfWeek;
+    justify-self: center; 
+    align-self: center; 
+}
+.stripes {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    @media screen and (max-width: 640px) {
+        font-size: 0.7em;
+    }
+    &::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        border: 2px solid #5e9085;
+        left: 0;
+        top: -10px;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        border: 2px solid #5e9085;
+        top: calc(100% + 5px);
+        left:0;
+    }
+}

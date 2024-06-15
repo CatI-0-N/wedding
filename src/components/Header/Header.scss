@@ -1,0 +1,20 @@
+.header {
+  background-image: url("../../assets/images/hearts2.png");
+  background-position-y: 25%;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  margin-top: 15px;
+  margin-bottom: -60px;
+  position: relative;
+  background-clip: content-box;
+  background-size: contain;
+  @media screen and (max-width: 640px) {
+    margin-top: 40px;
+    margin-bottom: -175px;
+  }
+  &__menu {
+    height: 80px;
+    background-color: #ffffff;
+  }
+}

@@ -1,0 +1,28 @@
+.invite {
+  margin: 100px auto;
+  border-radius: 15% 15% 0 0;
+  text-align: center;
+  &__names {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    color: #3d5f58;
+  }
+  &__date {
+    font-family: "Hepta Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    margin-bottom: 75px;
+  }
+  &__signature {
+    text-align: end;
+    margin-right: 1em;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: large;
+    color: #000000;
+  }
+}

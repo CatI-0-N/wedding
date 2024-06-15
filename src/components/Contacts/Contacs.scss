@@ -1,0 +1,47 @@
+.contacs {
+  text-align: center;
+  margin: 100px 0;
+  &__wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0;
+    &__we {
+      &__photo {
+        width: 150px;
+        height: 150px;
+        @media screen and (max-width: 640px) {
+          width: 70px;
+          height: 70px;
+        }
+      }
+    }
+    &__single {
+      &__photo {
+        width: 170px;
+        height: 170px;
+        border-radius: 25%;
+        @media screen and (max-width: 640px) {
+          width: 90px;
+          height: 90px;
+        }
+      }
+    }
+    &__info {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      &__image {
+        width: 80px;
+        @media screen and (max-width: 640px) {
+          width: 50px;
+        }
+      }
+      &__number {
+        margin-top: 5px;
+      }
+    }
+  }
+}
+.reverse {
+  flex-direction: row-reverse;
+}

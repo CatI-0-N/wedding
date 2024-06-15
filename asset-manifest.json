@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/wedding/static/css/main.7ad7ec52.css",
+    "main.js": "/wedding/static/js/main.e791b118.js",
+    "static/js/453.7e3e3be8.chunk.js": "/wedding/static/js/453.7e3e3be8.chunk.js",
+    "static/media/He.jpg": "/wedding/static/media/He.33e7fb9d1639169fe625.jpg",
+    "static/media/She.jpg": "/wedding/static/media/She.af4b12ef0129473ebd04.jpg",
+    "static/media/hearts2.png": "/wedding/static/media/hearts2.c7868b76e87949e7ac6f.png",
+    "static/media/eat.png": "/wedding/static/media/eat.d16dd16ebc984fbb6bfd.png",
+    "static/media/preparation.png": "/wedding/static/media/preparation.4177b5de25cc3825a37d.png",
+    "static/media/wedding.png": "/wedding/static/media/wedding.c9b1ccc047c01450200c.png",
+    "static/media/travel.png": "/wedding/static/media/travel.8027564dd79db4983dc9.png",
+    "static/media/party.png": "/wedding/static/media/party.08f9312e1661d0f8e6e9.png",
+    "static/media/suit.png": "/wedding/static/media/suit.b8e15fb5978b38eb4578.png",
+    "static/media/dress.png": "/wedding/static/media/dress.c6efd456a9440a9a9d4b.png",
+    "static/media/jumper.png": "/wedding/static/media/jumper.65be71050c939c8b8ec5.png",
+    "static/media/shorts.png": "/wedding/static/media/shorts.c8b119cb8264c834787f.png",
+    "index.html": "/wedding/index.html",
+    "main.7ad7ec52.css.map": "/wedding/static/css/main.7ad7ec52.css.map",
+    "main.e791b118.js.map": "/wedding/static/js/main.e791b118.js.map",
+    "453.7e3e3be8.chunk.js.map": "/wedding/static/js/453.7e3e3be8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ad7ec52.css",
+    "static/js/main.e791b118.js"
+  ]
+}
